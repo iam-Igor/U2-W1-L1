@@ -518,3 +518,31 @@ footer a {
     font-size: 0.9em;
   }
 }
+
+/* PRINT */
+
+@media print {
+  header,
+  iframe,
+  section,
+  aside,
+  footer {
+    display: none;
+  }
+
+  table {
+    margin-top: 170px;
+  }
+
+  body {
+    font-size: 2em;
+  }
+
+  main {
+    box-shadow: none;
+  }
+
+  .logoBox {
+    float: left;
+  }
+}
