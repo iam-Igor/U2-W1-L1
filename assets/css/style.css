@@ -163,6 +163,7 @@ input {
   padding: 5px;
   border: 0;
   border-bottom: 1px dashed #333;
+  width: 140px;
 }
 button {
   padding: 4px 7px;
@@ -213,7 +214,7 @@ footer a {
 
 /* first breakpoint */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   body {
     font-weight: 600;
     letter-spacing: 0px;
